@@ -1,0 +1,39 @@
+body.tin-restock-body {
+    background-color: #f5f2ed; /* Cream */
+    color: #1a3024; /* Deep Green */
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.restock-container {
+    max-width: 600px;
+    padding: 40px;
+    border: 1px solid #1a3024;
+    margin: 20px;
+}
+
+.restock-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.restock-message {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.restock-time {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-top: 1px solid #1a3024;
+    padding-top: 20px;
+    font-weight: bold;
+}
